@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+  align-items: baseline;
+}
+
+.title {
+  color: #000000;
+  font-weight: 500;
+}
+
+.delete-btn {
+  background-color: #ffffff;
+  color: #ff0b37;
+  /* border-color: #ff0b37; */
+  border: 1px solid #ff0b37;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
